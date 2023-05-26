@@ -9,10 +9,10 @@
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
         Size: =27
-        Text: ="Tabla1"
-        Width: =Parent.Width - Self.X - IconSortUpDown1.Width - IconNewItem1.Width - IconRefresh1.Width
+        Text: ="Audios"
+        Width: =274
         Wrap: =false
-        X: =20
+        X: =101
         ZIndex: =2
 
     IconRefresh1 As icon.Reload:
@@ -173,4 +173,18 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+    IconRefresh1_1 As icon.Reload:
+        AccessibleLabel: =Self.Tooltip
+        Height: =88
+        Icon: =Icon.BackArrow
+        OnSelect: =Refresh([@Tabla1])
+        PaddingBottom: =22
+        PaddingLeft: =22
+        PaddingRight: =22
+        PaddingTop: =22
+        TabIndex: =0
+        Tooltip: ="Actualizar lista"
+        Width: =88
+        ZIndex: =10
 
