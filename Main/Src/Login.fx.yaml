@@ -1,0 +1,75 @@
+Login As screen:
+
+    Rectangle1 As rectangle:
+        Width: =640
+        ZIndex: =1
+
+    Label1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =21
+        Text: ="Mi Banda Sonora - Login"
+        Width: =560
+        X: =40
+        Y: =15
+        ZIndex: =2
+
+    Label2 As label:
+        Height: =70
+        Size: =21
+        Text: ="Identificación"
+        Width: =560
+        X: =40
+        Y: =140
+        ZIndex: =3
+
+    user As text:
+        Default: =""
+        Height: =70
+        HintText: ="usuario"
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =210
+        ZIndex: =4
+
+    Label2_1 As label:
+        Height: =70
+        Size: =21
+        Text: ="Contraseña"
+        Width: =560
+        X: =40
+        Y: =317
+        ZIndex: =5
+
+    password As text:
+        Default: =""
+        Height: =70
+        HintText: ="Contraseña"
+        Mode: =TextMode.Password
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =387
+        ZIndex: =6
+
+    Button1 As button:
+        Height: =70
+        OnSelect: =If(LookUp(Tabla2,Id = user.Text, Password) = password.Text,Navigate(BrowseScreen1);Set(ErrorLogin,""),Set(ErrorLogin,"Usuario invalido"));Reset(password);Reset(user)
+        Size: =24
+        Text: ="Iniciar"
+        Width: =280
+        X: =180
+        Y: =535
+        ZIndex: =7
+
+    invalidUser As label:
+        Color: =RGBA(255, 0, 0, 1)
+        Height: =70
+        Size: =21
+        Text: =ErrorLogin
+        Width: =560
+        X: =40
+        Y: =661
+        ZIndex: =8
+

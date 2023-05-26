@@ -38,12 +38,16 @@
         "dataSources": {
           "Tabla1": {
             "tableName": "Tabla1"
+          },
+          "Tabla2": {
+            "tableName": "Tabla2"
           }
         }
       }
     },
     "dataSources": [
-      "Tabla1"
+      "Tabla1",
+      "Tabla2"
     ],
     "dependencies": {
       "fileSource": "253af15e-8b13-4f30-b77b-dbf889a1c718"
