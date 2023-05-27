@@ -130,8 +130,8 @@
   "ScreenOrder": [
     "Login",
     "Sign Up",
-    "BrowseScreen1",
-    "DetailScreen1",
+    "ListaDeAudios",
+    "DetallesCanción",
     "EditScreen1"
   ]
 }

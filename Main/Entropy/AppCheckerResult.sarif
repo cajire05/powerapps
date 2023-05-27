@@ -1702,19 +1702,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BrowseScreen1.TextSearchBox1.AccessibleLabel"
+                  "fullyQualifiedName": "ListaDeAudios.TextSearchBox1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "BrowseScreen1.TextSearchBox1.AccessibleLabel",
+                  "fullyQualifiedName": "ListaDeAudios.TextSearchBox1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "BrowseScreen1",
-                "type": "BrowseScreen1.TextSearchBox1"
+                "module": "ListaDeAudios",
+                "type": "ListaDeAudios.TextSearchBox1"
               }
             }
           ],
@@ -1732,19 +1732,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BrowseScreen1.BrowseGallery1.AccessibleLabel"
+                  "fullyQualifiedName": "ListaDeAudios.BrowseGallery1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "BrowseScreen1.BrowseGallery1.AccessibleLabel",
+                  "fullyQualifiedName": "ListaDeAudios.BrowseGallery1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "BrowseScreen1",
-                "type": "BrowseScreen1.BrowseGallery1"
+                "module": "ListaDeAudios",
+                "type": "ListaDeAudios.BrowseGallery1"
               }
             }
           ],
@@ -1762,19 +1762,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "BrowseScreen1.BrowseGallery1.TabIndex"
+                  "fullyQualifiedName": "ListaDeAudios.BrowseGallery1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "BrowseScreen1.BrowseGallery1.TabIndex",
+                  "fullyQualifiedName": "ListaDeAudios.BrowseGallery1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "BrowseScreen1",
-                "type": "BrowseScreen1.BrowseGallery1"
+                "module": "ListaDeAudios",
+                "type": "ListaDeAudios.BrowseGallery1"
               }
             }
           ],

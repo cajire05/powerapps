@@ -1,4 +1,4 @@
-"DetailScreen1 As screen.'phoneDetailViewLayout_ver3.0'":
+"DetallesCanción As screen.'phoneDetailViewLayout_ver3.0'":
 
     RectQuickActionBar2 As rectangle:
         Height: =88
@@ -9,7 +9,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.ChevronLeft
-        OnSelect: =Navigate(BrowseScreen1, ScreenTransition.None)
+        OnSelect: =Navigate(ListaDeAudios, ScreenTransition.None)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
@@ -54,7 +54,7 @@
     LblAppName2 As label:
         Height: =88
         Size: =27
-        Text: ="Tabla1"
+        Text: ="Canción"
         Width: =Parent.Width - Self.X - IconDelete1.Width - IconEdit1.Width
         Wrap: =false
         X: =80

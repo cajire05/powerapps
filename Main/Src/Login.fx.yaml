@@ -55,7 +55,7 @@ Login As screen:
 
     Button1 As button:
         Height: =70
-        OnSelect: =If(LookUp(Tabla2,Id = user.Text, Password) = password.Text,Navigate(BrowseScreen1);Set(ErrorLogin,""),Set(ErrorLogin,"Usuario invalido"));Reset(password);Reset(user)
+        OnSelect: =If(LookUp(Tabla2,Id = user.Text, Password) = password.Text,Navigate(ListaDeAudios);Set(ErrorLogin,""),Set(ErrorLogin,"Usuario invalido"));Reset(password);Reset(user)
         Size: =24
         Text: ="Iniciar"
         Width: =280

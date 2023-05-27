@@ -85,6 +85,7 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HintText: ="Número celular"
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -158,6 +159,7 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HintText: ="Correo"
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -231,6 +233,7 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HintText: ="Número de identificación"
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -304,6 +307,7 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HintText: ="Nombre completo"
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -377,6 +381,7 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HintText: ="Contraseña"
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
