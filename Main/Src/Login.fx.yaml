@@ -89,7 +89,7 @@ Login As screen:
         Color: =RGBA(56, 96, 178, 1)
         Fill: =RGBA(0, 0, 0, 0)
         Height: =70
-        OnSelect: =Navigate('Sign Up')
+        OnSelect: =NewForm(SignUpForm);Navigate('Sign Up')
         Size: =24
         Text: ="Registrate"
         Width: =180
