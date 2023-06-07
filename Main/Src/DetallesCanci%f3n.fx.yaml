@@ -79,7 +79,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =1
+            Y: =0
             ZIndex: =1
 
             DataCardKey1 As label:
@@ -93,18 +93,13 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
+            Image1 As image:
+                Height: =320
+                Image: =Parent.Default
+                Width: =565
                 X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
-                ZIndex: =2
+                Y: =58
+                ZIndex: =3
 
         fuente_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
@@ -117,7 +112,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =2
+            Y: =1
             ZIndex: =1
 
             DataCardKey2 As label:
@@ -131,18 +126,13 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue2 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
+            Video2 As videoPlayback:
+                Height: =323
+                Media: =Parent.Default
+                Width: =575
                 X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
-                ZIndex: =2
+                Y: =74
+                ZIndex: =3
 
         genero_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
@@ -155,7 +145,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =3
+            Y: =2
             ZIndex: =1
 
             DataCardKey3 As label:
@@ -182,44 +172,6 @@
                 Y: =DataCardKey3.Y + DataCardKey3.Height + 5
                 ZIndex: =2
 
-        Id_lista_DataCard1 As typedDataCard.textualViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Id_lista"
-            Default: =ThisItem.Id_lista
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Tabla1],DataSourceInfo.DisplayName,"Id_lista")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =640
-            X: =0
-            Y: =4
-            ZIndex: =1
-
-            DataCardKey4 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue4 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
-                ZIndex: =2
-
         interprete_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="interprete"
@@ -231,7 +183,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =5
+            Y: =3
             ZIndex: =1
 
             DataCardKey5 As label:
@@ -269,7 +221,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =6
+            Y: =4
             ZIndex: =1
 
             DataCardKey6 As label:
@@ -307,7 +259,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =7
+            Y: =5
             ZIndex: =1
 
             DataCardKey7 As label:
@@ -345,7 +297,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =8
+            Y: =6
             ZIndex: =1
 
             DataCardKey8 As label:

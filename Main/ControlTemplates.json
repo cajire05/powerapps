@@ -39,7 +39,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "form",
     "OverridableProperties": {},
-    "Version": "2.3.2"
+    "Version": "2.4.0"
   },
   "formViewer": {
     "CustomGroupControlTemplateName": "",
@@ -122,6 +122,20 @@
     "OverridableProperties": {},
     "Version": "2.5.0"
   },
+  "image": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/image",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "image",
+    "OverridableProperties": {},
+    "Version": "2.2.2"
+  },
   "label": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -191,5 +205,19 @@
     "Name": "typedDataCard",
     "OverridableProperties": {},
     "Version": "1.0.5"
+  },
+  "videoPlayback": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/videoPlayback",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "videoPlayback",
+    "OverridableProperties": {},
+    "Version": "2.3.2"
   }
 }
