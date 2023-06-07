@@ -1,6 +1,7 @@
 "DetallesCanción As screen.'phoneDetailViewLayout_ver3.0'":
 
     RectQuickActionBar2 As rectangle:
+        BorderColor: =RGBA(151, 0, 0, 1)
         Height: =88
         Width: =Parent.Width
         ZIndex: =1
@@ -19,43 +20,11 @@
         Width: =88
         ZIndex: =2
 
-    IconEdit1 As icon.Edit:
-        AccessibleLabel: =Self.Tooltip
-        DisplayMode: =If(DataSourceInfo([@Tabla1], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Height: =88
-        Icon: =Icon.Edit
-        OnSelect: =EditForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Editar este elemento"
-        Width: =88
-        X: =Parent.Width - Self.Width
-        ZIndex: =3
-
-    IconDelete1 As icon.Trash:
-        AccessibleLabel: =Self.Tooltip
-        DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@Tabla1], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Height: =88
-        Icon: =Icon.Trash
-        OnSelect: =Remove([@Tabla1], BrowseGallery1.Selected); If (IsEmpty(Errors([@Tabla1], BrowseGallery1.Selected)), Back())
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Eliminar este elemento"
-        Width: =88
-        X: =Parent.Width - IconEdit1.Width - Self.Width
-        ZIndex: =4
-
     LblAppName2 As label:
         Height: =88
         Size: =27
         Text: ="Canción"
-        Width: =Parent.Width - Self.X - IconDelete1.Width - IconEdit1.Width
+        Width: =Parent.Width - Self.X - IconLike.Width
         Wrap: =false
         X: =80
         ZIndex: =5
@@ -323,4 +292,20 @@
                 X: =30
                 Y: =DataCardKey8.Y + DataCardKey8.Height + 5
                 ZIndex: =2
+
+    IconLike As icon.Trash:
+        AccessibleLabel: =Self.Tooltip
+        DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@Tabla1], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
+        Height: =88
+        Icon: =Icon.CheckBadge
+        OnSelect: =Remove([@Tabla1], BrowseGallery1.Selected); If (IsEmpty(Errors([@Tabla1], BrowseGallery1.Selected)), Back())
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Eliminar este elemento"
+        Width: =88
+        X: =552
+        ZIndex: =7
 
