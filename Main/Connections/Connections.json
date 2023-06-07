@@ -36,6 +36,9 @@
     "datasets": {
       "b!-kDpxJAbWEWYiOxSMxRGvWLlAFv3yVJEvilDi8xis_zAZPDl4SCpTqBt0vpYtC8u.01DCYBXBN5BF32TUYJGVDKXQDDDCZ5SNGR": {
         "dataSources": {
+          "Preferencias": {
+            "tableName": "Preferencias"
+          },
           "Tabla1": {
             "tableName": "Tabla1"
           },
@@ -47,7 +50,8 @@
     },
     "dataSources": [
       "Tabla1",
-      "Tabla2"
+      "Tabla2",
+      "Preferencias"
     ],
     "dependencies": {
       "fileSource": "253af15e-8b13-4f30-b77b-dbf889a1c718"

@@ -27,7 +27,7 @@
         TabIndex: =0
         Tooltip: ="Actualizar lista"
         Width: =88
-        X: =Parent.Width - IconNewItem1.Width - IconSortUpDown1.Width - Self.Width
+        X: =Parent.Width - IconSortUpDown1.Width - Self.Width
         ZIndex: =3
 
     IconSortUpDown1 As icon.ArrowsUpDown:
@@ -43,24 +43,8 @@
         TabIndex: =0
         Tooltip: =If(SortDescending1, "Ordenar la lista en orden alfabético inverso", "Ordenar la lista en orden alfabético")
         Width: =88
-        X: =Parent.Width - IconNewItem1.Width - Self.Width
-        ZIndex: =4
-
-    IconNewItem1 As icon.Add:
-        AccessibleLabel: =Self.Tooltip
-        DisplayMode: =If(DataSourceInfo([@Tabla1], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Height: =88
-        Icon: =Icon.Add
-        OnSelect: =NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.Fade)
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Crear elemento"
-        Width: =88
         X: =Parent.Width - Self.Width
-        ZIndex: =5
+        ZIndex: =4
 
     TextSearchBox1 As text:
         Default: =""
@@ -101,7 +85,7 @@
         Height: =Parent.Height - Self.Y
         Items: =SortByColumns(Search([@Tabla1], TextSearchBox1.Text, "Id_lista","foto","fuente"), "Id_lista", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
-        OnSelect: =Navigate(DetallesCanción, ScreenTransition.None)
+        OnSelect: =Navigate(DetallesCanción, ScreenTransition.Cover)
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
