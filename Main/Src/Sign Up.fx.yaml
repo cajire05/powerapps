@@ -85,6 +85,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(0, 0, 0, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 HintText: ="Número celular"
