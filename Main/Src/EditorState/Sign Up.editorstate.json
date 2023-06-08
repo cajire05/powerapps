@@ -2152,7 +2152,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "RGBA(0, 18, 107, 1)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "HoverBorderColor",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
