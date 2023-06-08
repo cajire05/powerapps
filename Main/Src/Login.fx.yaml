@@ -29,6 +29,8 @@ Login As screen:
         Default: =""
         Height: =70
         HintText: ="Número de identificación"
+        HoverBorderColor: =RGBA(128, 128, 128, 1)
+        HoverFill: =RGBA(128, 128, 128, 1)
         Size: =21
         Width: =560
         X: =40
@@ -49,6 +51,8 @@ Login As screen:
         Default: =""
         Height: =70
         HintText: ="Contraseña"
+        HoverBorderColor: =RGBA(128, 128, 128, 1)
+        HoverFill: =RGBA(128, 128, 128, 1)
         Mode: =TextMode.Password
         Size: =21
         Width: =560
@@ -57,7 +61,9 @@ Login As screen:
         ZIndex: =6
 
     Button1 As button:
+        Fill: =RGBA(0, 0, 0, 1)
         Height: =70
+        HoverFill: =ColorFade(RGBA(0, 0, 0, 0.8), -20%)
         OnSelect: =If(LookUp(Tabla2,Id = user.Text, Password) = password.Text,Navigate(ListaDeAudios);Set(ErrorLogin,""),Set(ErrorLogin,"Usuario invalido"));Reset(password);Reset(user)
         Size: =24
         Text: ="Iniciar"
