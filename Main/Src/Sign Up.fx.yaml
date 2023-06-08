@@ -88,6 +88,8 @@
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 HintText: ="Número celular"
+                HoverBorderColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =RGBA(215, 223, 240, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -165,6 +167,7 @@
                 Height: =70
                 HintText: ="Correo"
                 HoverBorderColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =RGBA(241, 244, 249, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -239,6 +242,8 @@
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 HintText: ="Número de identificación"
+                HoverBorderColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =RGBA(241, 244, 249, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -313,6 +318,8 @@
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 HintText: ="Nombre completo"
+                HoverBorderColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =RGBA(241, 244, 249, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -387,6 +394,8 @@
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 HintText: ="Contraseña"
+                HoverBorderColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =RGBA(241, 244, 249, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
