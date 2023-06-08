@@ -85,11 +85,12 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledFill: =RGBA(0, 0, 0, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 HintText: ="Número celular"
                 HoverBorderColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(215, 223, 240, 1)
+                HoverFill: =RGBA(241, 244, 249, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
