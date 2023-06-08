@@ -1,6 +1,7 @@
 "ListaDeAudios As screen.'phoneBrowseLayout_ver3.0'":
 
     RectQuickActionBar1 As rectangle:
+        Fill: =RGBA(0, 0, 0, 1)
         Height: =88
         Width: =Parent.Width
         ZIndex: =1
@@ -47,6 +48,7 @@
         ZIndex: =4
 
     TextSearchBox1 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
         Default: =""
         DelayOutput: =true
         Height: =68

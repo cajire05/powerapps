@@ -1,6 +1,7 @@
 "'Sign Up' As screen.'phoneDetailEditLayout_ver3.0'":
 
     RectQuickActionBar3_1 As rectangle:
+        Fill: =RGBA(0, 0, 0, 1)
         Height: =88
         Width: =Parent.Width
         ZIndex: =1
@@ -41,7 +42,7 @@
         Text: ="Registro"
         Width: =Parent.Width - IconCancel1_1.Width - IconAccept1_1.Width
         Wrap: =false
-        X: =80
+        X: =88
         ZIndex: =4
 
     SignUpForm As form:
