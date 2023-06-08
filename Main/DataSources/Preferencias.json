@@ -8,8 +8,8 @@
     },
     "ConnectedDataSourceInfoNameMapping": {
       "__PowerAppsId__": "Row id",
-      "id_x0020_lista": "id lista",
-      "id_x0020_usuario": "id usuario",
+      "idlista": "idlista",
+      "idusuario": "idusuario",
       "preferencia": "preferencia"
     },
     "DatasetName": "b!-kDpxJAbWEWYiOxSMxRGvWLlAFv3yVJEvilDi8xis_zAZPDl4SCpTqBt0vpYtC8u.01DCYBXBN5BF32TUYJGVDKXQDDDCZ5SNGR",

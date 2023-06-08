@@ -304,10 +304,15 @@
 
     IconLike As icon.Trash:
         AccessibleLabel: =Self.Tooltip
+        Color: =If(preferenciaUsuario = 1, RGBA(0, 255, 0, 1), RGBA(255, 255, 255, 1))
         DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@Tabla1], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
-        Icon: =Icon.CheckBadge
-        OnSelect: =Remove([@Tabla1], BrowseGallery1.Selected); If (IsEmpty(Errors([@Tabla1], BrowseGallery1.Selected)), Back())
+        Icon: =Icon.ThumbsUpFilled
+        OnSelect: |-
+            =Set(preferenciaUsuario, 1-preferenciaUsuario);
+            Patch(Preferencias, LookUp(Preferencias, userId = idusuario && BrowseGallery1.Selected.Id_lista = idlista), {preferencia:preferenciaUsuario});
+            
+            IconLike.Icon = Switch(preferenciaUsuario, 1, Icon.ThumbsUpFilled, 0, Icon.ThumbsUp)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24

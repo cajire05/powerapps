@@ -91,7 +91,14 @@
         Height: =Parent.Height - Self.Y
         Items: =SortByColumns(Search([@Tabla1], TextSearchBox1.Text, "Id_lista","foto","fuente"), "Id_lista", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
-        OnSelect: =Navigate(DetallesCanción, ScreenTransition.Cover);Set(searchResult, LookUp(Preferencias, userId = preferencia))
+        OnSelect: |
+            =Navigate(DetallesCanción, ScreenTransition.Cover);
+            
+            Set(searchResult, LookUp(Preferencias, userId = idusuario && BrowseGallery1.Selected.Id_lista = idlista, preferencia));
+            
+            If(searchResult = Blank(),Patch(Preferencias,Defaults(Preferencias),{idusuario:userId, idlista:BrowseGallery1.Selected.Id_lista, preferencia:0});Set(preferenciaUsuario,0),Set(preferenciaUsuario,searchResult+0));
+            
+            IconLike.Icon = Switch(preferenciaUsuario, 1, Icon.ThumbsUpFilled, 0, Icon.ThumbsUp)
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
@@ -177,4 +184,14 @@
         Tooltip: ="Actualizar lista"
         Width: =88
         ZIndex: =10
+
+    Icon1 As icon.Person:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =68
+        Icon: =Icon.Person
+        OnSelect: =Navigate(DetalleUsuario)
+        Width: =63
+        X: =401
+        Y: =10
+        ZIndex: =11
 

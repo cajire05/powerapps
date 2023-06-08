@@ -132,6 +132,7 @@
     "Login",
     "Sign Up",
     "ListaDeAudios",
-    "DetallesCanción"
+    "DetallesCanción",
+    "DetalleUsuario"
   ]
 }
