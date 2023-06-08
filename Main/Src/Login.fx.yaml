@@ -88,7 +88,7 @@ Login As screen:
         Text: ="No tienes usuario?"
         Width: =256
         X: =40
-        Y: =852
+        Y: =772
         ZIndex: =9
 
     RegisterButton As button:
@@ -104,6 +104,14 @@ Login As screen:
         Text: ="Registrate"
         Width: =180
         X: =296
-        Y: =852
+        Y: =772
         ZIndex: =10
+
+    Image2 As image:
+        Height: =272
+        Image: ='WhatsApp Image 2023-06-07 at 2.27.43 PM'
+        Width: =308
+        X: =164
+        Y: =842
+        ZIndex: =11
 
