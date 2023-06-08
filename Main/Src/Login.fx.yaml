@@ -95,9 +95,10 @@ Login As screen:
         BorderColor: |
             =
         BorderStyle: =BorderStyle.None
-        Color: =RGBA(56, 96, 178, 1)
+        Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(0, 0, 0, 0)
         Height: =70
+        HoverFill: =ColorFade(RGBA(0, 0, 0, 1.8), -20%)
         OnSelect: =NewForm(SignUpForm);Navigate('Sign Up')
         Size: =24
         Text: ="Registrate"
