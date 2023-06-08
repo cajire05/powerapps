@@ -266,10 +266,10 @@
 
         relat_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="relat"
-            Default: =ThisItem.relat
+            DataField: ="relato"
+            Default: =ThisItem.relato
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Tabla1],DataSourceInfo.DisplayName,"relat")
+            DisplayName: =DataSourceInfo([@Tabla1],DataSourceInfo.DisplayName,"relato")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false

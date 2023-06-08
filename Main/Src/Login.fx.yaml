@@ -64,7 +64,7 @@ Login As screen:
         Fill: =RGBA(0, 0, 0, 1)
         Height: =70
         HoverFill: =ColorFade(RGBA(0, 0, 0, 0.8), -20%)
-        OnSelect: =If(LookUp(Tabla2,Id = user.Text, Password) = password.Text,Navigate(ListaDeAudios);Set(ErrorLogin,""),Set(ErrorLogin,"Usuario invalido"));Reset(password);Reset(user)
+        OnSelect: =If(LookUp(Tabla2,Id = user.Text, Password) = password.Text,Navigate(ListaDeAudios);Set(ErrorLogin,"");Set(userId,user.Text),Set(ErrorLogin,"Usuario invalido"));Reset(password);Reset(user)
         Size: =24
         Text: ="Iniciar"
         Width: =280
