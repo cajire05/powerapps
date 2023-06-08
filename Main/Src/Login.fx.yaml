@@ -29,8 +29,8 @@ Login As screen:
         Default: =""
         Height: =70
         HintText: ="Número de identificación"
-        HoverBorderColor: =RGBA(128, 128, 128, 1)
-        HoverFill: =RGBA(128, 128, 128, 1)
+        HoverBorderColor: =RGBA(241, 244, 249, 1)
+        HoverFill: =RGBA(241, 244, 249, 1)
         Size: =21
         Width: =560
         X: =40
@@ -51,8 +51,8 @@ Login As screen:
         Default: =""
         Height: =70
         HintText: ="Contraseña"
-        HoverBorderColor: =RGBA(128, 128, 128, 1)
-        HoverFill: =RGBA(128, 128, 128, 1)
+        HoverBorderColor: =RGBA(241, 244, 249, 1)
+        HoverFill: =RGBA(241, 244, 249, 1)
         Mode: =TextMode.Password
         Size: =21
         Width: =560
