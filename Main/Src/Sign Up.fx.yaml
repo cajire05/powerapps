@@ -82,7 +82,8 @@
                 ZIndex: =1
 
             DataCardValue17 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1.5
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisabledFill: =RGBA(0, 0, 0, 1)
@@ -160,7 +161,8 @@
                 ZIndex: =1
 
             DataCardValue18 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1.5
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisabledFill: =RGBA(0, 0, 0, 1)
@@ -238,7 +240,8 @@
                 ZIndex: =1
 
             DataCardValue19 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1.5
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
@@ -315,7 +318,8 @@
                 ZIndex: =1
 
             DataCardValue20 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1.5
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
@@ -392,7 +396,8 @@
                 ZIndex: =1
 
             DataCardValue21 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1.5
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
